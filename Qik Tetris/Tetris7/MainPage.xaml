@@ -1,0 +1,122 @@
+﻿<!--
+Karan Thaker
+karan.thaker@hotmail.com
+-->
+    
+    <phone:PhoneApplicationPage 
+    x:Class="Tetris7.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    shell:SystemTray.IsVisible="True" Loaded="PhoneApplicationPage_Loaded" mc:Ignorable="d" d:DesignHeight="768" d:DesignWidth="480">
+
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Image x:Name="imgBackground" Source="Images/bg.jpg" Height="800" Width="500" VerticalAlignment="Top" HorizontalAlignment="Left" />
+
+        <controls:Pivot x:Name="pivot" Title="Qik Tetris" Margin="0,30,0,0">
+        	<controls:Pivot.Foreground>
+        		<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+        			<GradientStop Color="#FF001229"/>
+        			<GradientStop Color="White" Offset="1"/>
+        		</LinearGradientBrush>
+        	</controls:Pivot.Foreground>
+
+            <controls:PivotItem x:Name="playItem" Header="game">
+                <Grid>
+
+                        <Border VerticalAlignment="Top" HorizontalAlignment="Left" Margin="118,93,0,0" BorderBrush="AliceBlue" BorderThickness="3" CornerRadius="6" Padding="6" Height="418">
+                            <Border BorderBrush="AliceBlue" BorderThickness="1" CornerRadius="1">
+                            <Canvas x:Name="canvasBox" Background="Transparent" Width="205" Height="403" />
+                        </Border>
+                        </Border>
+
+                        <Border BorderBrush="#FFADADAD" BorderThickness="5" CornerRadius="1" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="8,93,0,0" Height="112" Width="99" d:LayoutOverrides="HorizontalAlignment" >
+                            <Canvas x:Name="canvasBoxPrev" Margin="7,7,26,7"/>
+                        </Border>
+
+                        <StackPanel Margin="164,8,150,0" Height="85" VerticalAlignment="Top" >
+                            <TextBlock Text="Total Points" TextAlignment="Center" Margin="0" Foreground="#FFFFEA00" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Top" />
+                            <TextBlock x:Name="lblScore" Text="{Binding Score}"  Width="80" TextAlignment="Center" Margin="0" Foreground="#FF00FF27" HorizontalAlignment="Center" VerticalAlignment="Top" />
+                            <TextBlock x:Name="gameOver" Text="Game Over" Width="120" TextAlignment="Center" Margin="0" Foreground="Red" Visibility="Collapsed" FontSize="22.667" />
+                        </StackPanel>
+
+                    <Button x:Name="play" Content=" start " Margin="0,90,-2,0"  Click="start_Click" VerticalAlignment="Top" FontSize="18.667" Height="80" BorderBrush="#FFADADAD" Foreground="#FFF3BD00" HorizontalAlignment="Right" Width="115" ClickMode="Press" BorderThickness="1" d:LayoutOverrides="VerticalAlignment" >
+                        <Button.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="#FFBEBEBE" Offset="0"/>
+                                <GradientStop Color="Black" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                    </Button>
+
+                    <Button x:Name="play2" Content="reset &#xd;&#xa;score" Margin="0,159,-2,0"  Click="score_Clear" VerticalAlignment="Top" FontSize="18.667" Height="80" BorderBrush="#FFADADAD" Foreground="#FFF3BD00" HorizontalAlignment="Right" Width="115" ClickMode="Press" BorderThickness="1" d:LayoutOverrides="VerticalAlignment" >
+                        <Button.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="#FFBEBEBE" Offset="0"/>
+                                <GradientStop Color="Black" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                    </Button>
+
+                    <Image x:Name="btnDown" Source="Images/down_black.png" Width="66" Height="110" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="32,0,0,77" MouseLeftButtonDown="btnDown_MouseLeftButtonDown" />
+                    <Image x:Name="btnRight" Source="Images/right_black.png" Margin="0,0,0,244" MouseLeftButtonDown="btnRight_MouseLeftButtonDown" HorizontalAlignment="Right" Width="100" Height="55" VerticalAlignment="Bottom" />
+                    <Image x:Name="btnChange" Source="Images/change.png" Height="49" VerticalAlignment="Bottom" Margin="205,0,200,13" MouseLeftButtonDown="btnChange_MouseLeftButtonDown" />
+                    <Image x:Name="btnDown_Copy" Source="Images/down_black.png" Width="67" Height="110" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,0,17,77" MouseLeftButtonDown="btnDown_MouseLeftButtonDown" />
+                    <Image x:Name="btnLeft" Source="Images/left_black.png" Margin="0,0,349,244" MouseLeftButtonDown="btnLeft_MouseLeftButtonDown" Width="100" HorizontalAlignment="Right" Height="55" VerticalAlignment="Bottom" RenderTransformOrigin="0.587,-1.267" />
+
+
+                </Grid>
+            </controls:PivotItem>
+
+            <controls:PivotItem x:Name="scoreItem" Header="score">
+                <ListBox x:Name="lboScore" Margin="15,0,0,0" SelectionChanged="lboScore_SelectionChanged" Foreground="White" >
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <Grid>
+                                <Border Background="White" Margin="0,0,0,30" Width="420" Opacity="0.2" />
+                                <StackPanel Orientation="Vertical">
+                                    <StackPanel Orientation="Horizontal" Margin="20,0,25,15" >
+                                        <TextBlock Text="Score: " TextWrapping="Wrap" />
+                                        <TextBlock Text="{ Binding Score}" TextWrapping="Wrap" />
+                                    </StackPanel>
+                                    <TextBlock Text="{ Binding Date}" TextWrapping="Wrap" Margin="20,-5,25,40" />
+                                </StackPanel>
+                            </Grid>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+            </controls:PivotItem>
+
+
+            <controls:PivotItem x:Name="aboutItem" Header="about">
+            	<Grid Margin="28,18,31,8" HorizontalAlignment="Center" Width="427">
+            		<Button Content="Rate this app!" Height="70" Margin="8,450,8,0" VerticalAlignment="Top" BorderThickness="2" BorderBrush="#FFFFDE00" Foreground="#FFFFDE00" Click="rate_click"/>
+            		<Button Content="More apps by Karan Thaker" Height="70" Margin="8,0,8,105" VerticalAlignment="Bottom" d:LayoutOverrides="VerticalAlignment" BorderThickness="2,2,2,3" Foreground="#FFFFDE00" BorderBrush="#FFFFDE00" Click="more_apps_dev"/>
+            		<TextBlock Height="303" Margin="20,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" HorizontalAlignment="Left" Width="387" Foreground="White" FontWeight="Bold" FontSize="24"><Run FontSize="32" FontFamily="Aharoni" Text="Qik Tetris 1.5">
+            				<Run.Foreground>
+            					<SolidColorBrush Color="#FF006DFF">
+            						<SolidColorBrush.RelativeTransform>
+            							<MatrixTransform Matrix="Identity"/>
+            						</SolidColorBrush.RelativeTransform>
+            						<SolidColorBrush.Transform>
+            							<MatrixTransform Matrix="Identity"/>
+            						</SolidColorBrush.Transform>
+            					</SolidColorBrush>
+            				</Run.Foreground>
+            			</Run><LineBreak/><Run/><LineBreak/><Run Text="This game has been created to provide the classic Tetris experience. The old classic has always been an excellent way to kill time. "/><LineBreak/><Run/><LineBreak/><Run Text="Enjoy it ad-free....for free! =)"/><LineBreak/><Run Text=""/></TextBlock>
+            	</Grid>
+            </controls:PivotItem>
+
+
+        </controls:Pivot>
+        
+        <Image Source="Images/logo.png" Width="81" Height="73" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0,20,27,0" />
+
+        </Grid>
+    
+</phone:PhoneApplicationPage>

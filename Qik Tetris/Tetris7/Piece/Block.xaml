@@ -1,0 +1,23 @@
+﻿<!--
+Karan Thaker
+karan.thaker@hotmail.com
+-->
+    
+    <UserControl x:Class="Tetris7.Piece.Block"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006">
+
+    <Canvas>
+        <Rectangle x:Name="rectangle" Width="20" Height="20" RadiusX="2" RadiusY="2" Stroke="AntiqueWhite">
+            <Rectangle.Fill>
+                <RadialGradientBrush SpreadMethod="Reflect">
+                    <GradientStop Color="White" Offset="0" />
+                    <GradientStop x:Name="gradientStop" Color="#26F" Offset="1" />
+                </RadialGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+
+    </Canvas>
+</UserControl>

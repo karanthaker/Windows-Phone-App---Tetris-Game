@@ -1,0 +1,96 @@
+C:\Users\Sigurd\Desktop\Tetris7\Tetris7\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Sigurd\Desktop\Tetris7\Tetris7\obj\Debug\App.g.i.cs
+C:\Users\Sigurd\Desktop\Tetris7\Tetris7\obj\Debug\MainPage.g.i.cs
+C:\Users\Sigurd\Desktop\Tetris7\Tetris7\obj\Debug\Piece\Block.g.i.cs
+C:\Users\Sigurd\Desktop\Tetris7\Tetris7\obj\Debug\Tetris7.g.resources
+C:\Users\Sigurd\Desktop\Tetris7\Tetris7\Bin\Debug\ApplicationIcon.png
+C:\Users\Sigurd\Desktop\Tetris7\Tetris7\Bin\Debug\Background.png
+C:\Users\Sigurd\Desktop\Tetris7\Tetris7\Bin\Debug\Tetris7.dll
+C:\Users\Sigurd\Desktop\Tetris7\Tetris7\Bin\Debug\Tetris7.pdb
+C:\Users\Sigurd\Desktop\Tetris7\Tetris7\Bin\Debug\AppManifest.xaml
+C:\Users\Sigurd\Desktop\Tetris7\Tetris7\Bin\Debug\Tetris7.xap
+C:\Users\Sigurd\Desktop\Tetris7\Tetris7\Bin\Debug\Microsoft.Phone.Controls.dll
+C:\Users\Sigurd\Desktop\Tetris7\Tetris7\Bin\Debug\Microsoft.Phone.Controls.xml
+C:\Users\Sigurd\Desktop\Tetris7\Tetris7\obj\Debug\Tetris7.dll
+C:\Users\Sigurd\Desktop\Tetris7\Tetris7\obj\Debug\Tetris7.pdb
+C:\Users\Sigurd\Desktop\Tetris7\Tetris7\obj\Debug\XapCacheFile.xml
+C:\Users\krt\Desktop\Tetris7\Tetris7\Bin\Debug\ApplicationIcon.png
+C:\Users\krt\Desktop\Tetris7\Tetris7\Bin\Debug\Background.png
+C:\Users\krt\Desktop\Tetris7\Tetris7\Bin\Debug\Tetris7.dll
+C:\Users\krt\Desktop\Tetris7\Tetris7\Bin\Debug\Tetris7.pdb
+C:\Users\krt\Desktop\Tetris7\Tetris7\Bin\Debug\AppManifest.xaml
+C:\Users\krt\Desktop\Tetris7\Tetris7\Bin\Debug\Tetris7.xap
+C:\Users\krt\Desktop\Tetris7\Tetris7\Bin\Debug\Microsoft.Phone.Controls.dll
+C:\Users\krt\Desktop\Tetris7\Tetris7\Bin\Debug\Microsoft.Phone.Controls.xml
+C:\Users\krt\Desktop\Tetris7\Tetris7\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\krt\Desktop\Tetris7\Tetris7\obj\Debug\App.g.i.cs
+C:\Users\krt\Desktop\Tetris7\Tetris7\obj\Debug\MainPage.g.i.cs
+C:\Users\krt\Desktop\Tetris7\Tetris7\obj\Debug\Piece\Block.g.i.cs
+C:\Users\krt\Desktop\Tetris7\Tetris7\obj\Debug\Tetris7.g.resources
+C:\Users\krt\Desktop\Tetris7\Tetris7\obj\Debug\Tetris7.dll
+C:\Users\krt\Desktop\Tetris7\Tetris7\obj\Debug\Tetris7.pdb
+C:\Users\krt\Desktop\Tetris7\Tetris7\obj\Debug\XapCacheFile.xml
+C:\Users\krt\Desktop\Useful WP7 Code\Tetris7\Tetris7\Bin\Debug\ApplicationIcon.png
+C:\Users\krt\Desktop\Useful WP7 Code\Tetris7\Tetris7\Bin\Debug\Background.png
+C:\Users\krt\Desktop\Useful WP7 Code\Tetris7\Tetris7\Bin\Debug\Tetris7.dll
+C:\Users\krt\Desktop\Useful WP7 Code\Tetris7\Tetris7\Bin\Debug\Tetris7.pdb
+C:\Users\krt\Desktop\Useful WP7 Code\Tetris7\Tetris7\Bin\Debug\AppManifest.xaml
+C:\Users\krt\Desktop\Useful WP7 Code\Tetris7\Tetris7\Bin\Debug\Microsoft.Phone.Controls.dll
+C:\Users\krt\Desktop\Useful WP7 Code\Tetris7\Tetris7\Bin\Debug\Microsoft.Phone.Controls.xml
+C:\Users\krt\Desktop\Useful WP7 Code\Tetris7\Tetris7\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\krt\Desktop\Useful WP7 Code\Tetris7\Tetris7\obj\Debug\App.g.i.cs
+C:\Users\krt\Desktop\Useful WP7 Code\Tetris7\Tetris7\obj\Debug\MainPage.g.i.cs
+C:\Users\krt\Desktop\Useful WP7 Code\Tetris7\Tetris7\obj\Debug\Piece\Block.g.i.cs
+C:\Users\krt\Desktop\Useful WP7 Code\Tetris7\Tetris7\obj\Debug\Tetris7.g.resources
+C:\Users\krt\Desktop\Useful WP7 Code\Tetris7\Tetris7\obj\Debug\Tetris7.dll
+C:\Users\krt\Desktop\Useful WP7 Code\Tetris7\Tetris7\obj\Debug\Tetris7.pdb
+C:\Users\krt\Desktop\Useful WP7 Code\Tetris7\Tetris7\obj\Debug\XapCacheFile.xml
+C:\Users\krt\Desktop\Useful WP7 Code\Tetris7\Tetris7\Bin\Debug\QikTetris.xap
+C:\Users\krt\Desktop\WP7 Builds\Qik Ttetris\Tetris7\Bin\Debug\ApplicationIcon.png
+C:\Users\krt\Desktop\WP7 Builds\Qik Ttetris\Tetris7\Bin\Debug\Background.png
+C:\Users\krt\Desktop\WP7 Builds\Qik Ttetris\Tetris7\Bin\Debug\Tetris7.dll
+C:\Users\krt\Desktop\WP7 Builds\Qik Ttetris\Tetris7\Bin\Debug\Tetris7.pdb
+C:\Users\krt\Desktop\WP7 Builds\Qik Ttetris\Tetris7\Bin\Debug\AppManifest.xaml
+C:\Users\krt\Desktop\WP7 Builds\Qik Ttetris\Tetris7\Bin\Debug\QikTetris.xap
+C:\Users\krt\Desktop\WP7 Builds\Qik Ttetris\Tetris7\Bin\Debug\Microsoft.Phone.Controls.dll
+C:\Users\krt\Desktop\WP7 Builds\Qik Ttetris\Tetris7\Bin\Debug\Microsoft.Phone.Controls.xml
+C:\Users\krt\Desktop\WP7 Builds\Qik Ttetris\Tetris7\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\krt\Desktop\WP7 Builds\Qik Ttetris\Tetris7\obj\Debug\App.g.i.cs
+C:\Users\krt\Desktop\WP7 Builds\Qik Ttetris\Tetris7\obj\Debug\MainPage.g.i.cs
+C:\Users\krt\Desktop\WP7 Builds\Qik Ttetris\Tetris7\obj\Debug\Piece\Block.g.i.cs
+C:\Users\krt\Desktop\WP7 Builds\Qik Ttetris\Tetris7\obj\Debug\Tetris7.g.resources
+C:\Users\krt\Desktop\WP7 Builds\Qik Ttetris\Tetris7\obj\Debug\Tetris7.dll
+C:\Users\krt\Desktop\WP7 Builds\Qik Ttetris\Tetris7\obj\Debug\Tetris7.pdb
+C:\Users\krt\Desktop\WP7 Builds\Qik Ttetris\Tetris7\obj\Debug\XapCacheFile.xml
+C:\Users\krt\Desktop\WP7 Builds\dev\Qik Ttetris\Tetris7\Bin\Debug\ApplicationIcon.png
+C:\Users\krt\Desktop\WP7 Builds\dev\Qik Ttetris\Tetris7\Bin\Debug\Background.png
+C:\Users\krt\Desktop\WP7 Builds\dev\Qik Ttetris\Tetris7\Bin\Debug\Tetris7.dll
+C:\Users\krt\Desktop\WP7 Builds\dev\Qik Ttetris\Tetris7\Bin\Debug\Tetris7.pdb
+C:\Users\krt\Desktop\WP7 Builds\dev\Qik Ttetris\Tetris7\Bin\Debug\AppManifest.xaml
+C:\Users\krt\Desktop\WP7 Builds\dev\Qik Ttetris\Tetris7\Bin\Debug\QikTetris.xap
+C:\Users\krt\Desktop\WP7 Builds\dev\Qik Ttetris\Tetris7\Bin\Debug\Microsoft.Phone.Controls.dll
+C:\Users\krt\Desktop\WP7 Builds\dev\Qik Ttetris\Tetris7\Bin\Debug\Microsoft.Phone.Controls.xml
+C:\Users\krt\Desktop\WP7 Builds\dev\Qik Ttetris\Tetris7\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\krt\Desktop\WP7 Builds\dev\Qik Ttetris\Tetris7\obj\Debug\App.g.i.cs
+C:\Users\krt\Desktop\WP7 Builds\dev\Qik Ttetris\Tetris7\obj\Debug\MainPage.g.i.cs
+C:\Users\krt\Desktop\WP7 Builds\dev\Qik Ttetris\Tetris7\obj\Debug\Piece\Block.g.i.cs
+C:\Users\krt\Desktop\WP7 Builds\dev\Qik Ttetris\Tetris7\obj\Debug\Tetris7.g.resources
+C:\Users\krt\Desktop\WP7 Builds\dev\Qik Ttetris\Tetris7\obj\Debug\Tetris7.dll
+C:\Users\krt\Desktop\WP7 Builds\dev\Qik Ttetris\Tetris7\obj\Debug\Tetris7.pdb
+C:\Users\krt\Desktop\WP7 Builds\dev\Qik Ttetris\Tetris7\obj\Debug\XapCacheFile.xml
+C:\Users\krt\Desktop\WP7 Builds\dev\Qik Tetris\Tetris7\Bin\Debug\ApplicationIcon.png
+C:\Users\krt\Desktop\WP7 Builds\dev\Qik Tetris\Tetris7\Bin\Debug\Background.png
+C:\Users\krt\Desktop\WP7 Builds\dev\Qik Tetris\Tetris7\Bin\Debug\Tetris7.dll
+C:\Users\krt\Desktop\WP7 Builds\dev\Qik Tetris\Tetris7\Bin\Debug\Tetris7.pdb
+C:\Users\krt\Desktop\WP7 Builds\dev\Qik Tetris\Tetris7\Bin\Debug\AppManifest.xaml
+C:\Users\krt\Desktop\WP7 Builds\dev\Qik Tetris\Tetris7\Bin\Debug\QikTetris.xap
+C:\Users\krt\Desktop\WP7 Builds\dev\Qik Tetris\Tetris7\Bin\Debug\Microsoft.Phone.Controls.dll
+C:\Users\krt\Desktop\WP7 Builds\dev\Qik Tetris\Tetris7\Bin\Debug\Microsoft.Phone.Controls.xml
+C:\Users\krt\Desktop\WP7 Builds\dev\Qik Tetris\Tetris7\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\krt\Desktop\WP7 Builds\dev\Qik Tetris\Tetris7\obj\Debug\App.g.i.cs
+C:\Users\krt\Desktop\WP7 Builds\dev\Qik Tetris\Tetris7\obj\Debug\MainPage.g.i.cs
+C:\Users\krt\Desktop\WP7 Builds\dev\Qik Tetris\Tetris7\obj\Debug\Piece\Block.g.i.cs
+C:\Users\krt\Desktop\WP7 Builds\dev\Qik Tetris\Tetris7\obj\Debug\Tetris7.g.resources
+C:\Users\krt\Desktop\WP7 Builds\dev\Qik Tetris\Tetris7\obj\Debug\Tetris7.dll
+C:\Users\krt\Desktop\WP7 Builds\dev\Qik Tetris\Tetris7\obj\Debug\Tetris7.pdb
+C:\Users\krt\Desktop\WP7 Builds\dev\Qik Tetris\Tetris7\obj\Debug\XapCacheFile.xml
